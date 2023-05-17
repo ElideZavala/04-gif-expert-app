@@ -5,24 +5,6 @@ import { GifGrid } from "./components/GifGrid";
 export const GifExpertApp = () => {
     const [categories, setCategories] = useState([]);
 
-    // const styles = {
-    //     button: {
-    //         backgroundColor: "red",
-    //         color: "white",
-    //         borderRadius: "5px",
-    //         padding: "5px",
-    //         border: "none",
-    //         cursor: "pointer",
-    //         marginLeft: "10px",
-    //     },
-    //     li: {
-    //         display: "flex",
-    //         justifyContent: "space-between",
-    //         alignItems: "center",
-    //         margin: "3vmin",
-    //     },
-    // };
-
     const onAddCategory = (newCategory) => {
         if (categories.includes(newCategory)) return;
         setCategories([newCategory, ...categories]);
