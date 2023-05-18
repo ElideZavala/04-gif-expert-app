@@ -11,7 +11,7 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h1>Lista de tareas por ahora</h1>
+            <h1 className="title">Busca tu imagen Gif</h1>
             <hr />
             <AddCategory onNewCategory={onAddCategory} />
             <hr />

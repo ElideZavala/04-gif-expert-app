@@ -61,3 +61,27 @@ h3 {
 .card img {
     width: 100%;
 }
+
+.title {
+    text-align      : center;
+    background-color: aquamarine;
+    padding         : 2vmin;
+    border-radius   : 8px;
+    box-shadow      : 0 0 8px aquamarine;
+    color           : rgb(134, 134, 134);
+}
+
+
+.subtitle {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    background-color: aquamarine;
+    padding         : 1.5vmin;
+    border-radius   : 8px;
+    box-shadow      : 0 0 8px aquamarine;
+    width           : 30%;
+    color           : rgb(134, 134, 134);
+    font-size       : 30px;
+    margin-bottom   : 1rem;
+}
