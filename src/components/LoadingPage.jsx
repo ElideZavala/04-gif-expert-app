@@ -1,5 +1,5 @@
 import { PropTypes } from "prop-types";
-const LoadingPage = ({ isLoading }) => {
+export const LoadingPage = ({ isLoading }) => {
     if (!isLoading) return null;
 
     return (
@@ -8,8 +8,6 @@ const LoadingPage = ({ isLoading }) => {
         </>
     );
 };
-
-export default LoadingPage;
 
 LoadingPage.propTypes = {
     isLoading: PropTypes.bool.isRequired,

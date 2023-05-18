@@ -28,8 +28,6 @@ export const AddCategory = ({ onNewCategory }) => {
     );
 };
 
-export default AddCategory;
-
 AddCategory.propTypes = {
     onNewCategory: PropTypes.func,
 };
